@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist" sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-supporting-color: #C850c0;
+    --secondary-color: #29a9fd;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Lexend Deca' sans-serif;
+    color: var(--bs-dark-color)
+    
+    }
+
+    .bg-main{
+        height: 60vh;
+        position: relative;
+    }
+
+.bg-color{
+    background-color: var(--bs-dark-color)!important;
+}
+
+.btn{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    float: inline-end;
+  }
+
+  /* .dot .fa-solid {
+    list-style-type:none
+  } */
+
+  .fa-solid{
+    border-radius: 3px;
+
+  }
+
+  .test{
+    color: var(--bs-primary-color);
+    font-size: 10px;
+    
+    
+  }
+
+  .fa-user-tie{
+    background-color: #c6c6c6;
+    padding: 5px;
+    border-radius: 100px;
+  }
+
+  
